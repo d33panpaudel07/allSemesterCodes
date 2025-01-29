@@ -1,0 +1,50 @@
+<!-- Create a User Registration form with following details.
+a. Name
+b. Email
+c. Password
+d. Gender (Radio Button)
+e. Hobbies (Checkbox)
+f. Submit button -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/submitForm" method="get">
+      <label for="name">Name</label>
+      <input type="text" id="name" />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" id="email" />
+      <br />
+      <label for="password">Password</label>
+      <input type="password" id="password" />
+      <br />
+      <br />
+      <fieldset style="width: fit-content">
+        <legend>Gender</legend>
+        <input type="radio" id="male" name="gender" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" />
+        <label for="female">Female</label>
+      </fieldset>
+      <br />
+      <fieldset style="width: fit-content">
+        <legend>Hobbies</legend>
+        <input type="checkbox" id="swimming" name="hobbies" />
+        <label for="swimming">Swimming</label>
+        <input type="checkbox" id="dancing" name="hobbies" />
+        <label for="dancing">Dancing</label>
+        <input type="checkbox" id="skiing" name="hobbies" />
+        <label for="skiing">Skiing</label>
+      </fieldset>
+
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

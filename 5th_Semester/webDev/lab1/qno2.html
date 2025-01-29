@@ -1,0 +1,76 @@
+<!-- Create a webpage with a HTML table showcasing different projects chosen by students. Student
+Columns:
+a. S.N
+b. Project Name
+c. Student Name
+d. Exam Roll Number
+e. Remarks
+Use thead, tbody and tfoot. Use border attribute to have 2 table borders. Use rowspan and colspan in
+the necessary areas. The table should have at least 4 projects involving 7 students -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="2">
+      <thead>
+        <td>S.N</td>
+        <td>Project Name</td>
+        <td>Student Name</td>
+        <td>Exam Roll Number</td>
+        <td>Remarks</td>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td rowspan="2">Project1</td>
+          <td>Student1</td>
+          <td>Roll1</td>
+          <td>Remarks1</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Student2</td>
+          <td>Roll2</td>
+          <td>Remarks2</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td rowspan="2">Project2</td>
+          <td>Student3</td>
+          <td>Roll3</td>
+          <td>Remarks3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Student4</td>
+          <td>Roll4</td>
+          <td>Remarks4</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td rowspan="1">Project3</td>
+          <td>Student5</td>
+          <td>Roll5</td>
+          <td>Remarks5</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td rowspan="2">Project4</td>
+          <td>Student6</td>
+          <td>Roll6</td>
+          <td>Remarks6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Student7</td>
+          <td>Roll7</td>
+          <td>Remarks7</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

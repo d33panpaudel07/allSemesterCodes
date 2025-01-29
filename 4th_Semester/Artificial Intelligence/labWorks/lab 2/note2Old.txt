@@ -1,0 +1,6 @@
+gt(X,Y) :- X >= Y,write('X is greater').
+gt(X,Y) :- X < Y,write('Y is greater, This is if-else statement').
+
+gte(X,Y) :- X > Y,write('X is greater').
+gte(X,Y) :- X =:= Y,write('X and Y are same').
+gte(X,Y) :- X < Y,write('X is smaller, This is if-elif-else').
